@@ -1,0 +1,56 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.functional {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:hidden;
+    margin: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    border-width: 2px;
+    border-color: aqua;
+}
+
+.player{
+    display: flex;
+    flex-direction: row;
+    color: orange;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    margin: 10px;
+    padding: 50px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: red;
+    background-color: grey;
+}
